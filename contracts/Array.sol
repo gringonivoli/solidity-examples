@@ -25,6 +25,10 @@ contract Array {
         arr.push(i);
     }
 
+    // function superPush(uint i) public {
+    //     myFixedSizeArr.push(i);
+    // }
+
     function pop() public {
         // Remove last element from array
         // This will decrease the array length by 1
