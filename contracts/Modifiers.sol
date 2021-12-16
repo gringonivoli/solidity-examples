@@ -5,7 +5,7 @@ contract FunctionModifier {
     // We will use these variables to demonstrate how to use
     // modifiers.
     address public owner;
-    bool hasPermission;
+    bool public hasPermission;
 
     constructor() {
         // Set the transaction sender as the owner of the contract.
