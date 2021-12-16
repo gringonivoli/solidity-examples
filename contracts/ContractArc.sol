@@ -52,6 +52,7 @@ contract ContractArc is Ownable {
 	function testMyLib() public pure returns (uint) {
 		return MyLib.superFunction();
 	}
+}
 
 // NatSpec
 // @title	A title that describes the contract	contract, interface
